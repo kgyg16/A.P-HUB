@@ -100,8 +100,28 @@ end)
     loadstring(game:HttpGet(('https://raw.githubusercontent.com/rblxscriptsnet/unfair/main/rblxhub.lua'),true))()
 end)
 
-    GuiSection:NewButton("Phantom Forces Unlock All", "Unlock all(the best)", function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/VoidMasterX/Releases/main/PF_UnlockAll.lua"))();
+    GuiSection:NewButton("Femware Criminality", "", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/JackHiggly/RobloxThings/main/FemWare0", true))()
+end)
+
+    GuiSection:NewButton("Ultra Hub", "", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/ZaRdoOx/Ultra-Hub/main/Main"))()
+end)
+
+    GuiSection:NewButton("DenWare", "", function()
+    loadstring(game:HttpGet("https://github.com/Ninja12real/A.P-HUB/blob/main/Denware"))()
+end)
+
+    GuiSection:NewButton("Ninja Legeds", "Autos some stuff", function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/03koios/Loader/main/Loader.lua"))()
+end)
+
+    GuiSection:NewButton("Arcane Hub", "", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/bebedi15/SRM-Scripts/main/Bebedi9960/SRMHub"))()
+end)
+
+    GuiSection:NewButton("Legends of speed", "Legends of speed GUI not tested by me yet", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/TKhpWRSG"))()
 end)
 
 --SETTINGS
